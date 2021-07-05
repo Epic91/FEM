@@ -1,0 +1,31 @@
+body {
+    background-color: hsla(0, 0%, 100%, 0.75) ;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    font-family: 'Big Shoulders Display', cursive;
+    color: hsl(0, 0%, 95%);
+    font-size: 40px;
+    font-weight: 700;
+}
+
+p{
+    font-family: 'Lexend Deca', sans-serif;
+    color: hsl(0, 0%, 95%);
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.sedan-container{
+    background-color: hsl(31, 77%, 52%);
+}
+
+.suv-container{
+    background-color: hsl(184, 100%, 22%);
+}
+
+.luxury-container{
+    background-color: hsl(179, 100%, 13%);
+}
