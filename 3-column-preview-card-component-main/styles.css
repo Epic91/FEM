@@ -1,7 +1,12 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+
 body {
     background-color: hsla(0, 0%, 100%, 0.75) ;
     margin: 0;
-    box-sizing: border-box;
 }
 
 header{
@@ -18,14 +23,56 @@ p{
     font-weight: 400;
 }
 
+button{
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
+    word-spacing: 1px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.sedan-btn{
+    background-color: hsl(0, 0%, 95%);
+    color: hsl(31, 77%, 52%);
+}
+
+.suv-btn{
+    background-color: hsl(0, 0%, 95%);
+    color: hsl(184, 100%, 22%);
+}
+
+.lux-btn{
+    background-color: hsl(0, 0%, 95%);
+    color: hsl(179, 100%, 13%);
+}
+
+.card-wrapper{
+    padding: 120px;
+    display: flex;
+    align-items: center;
+}
+
 .sedan-container{
     background-color: hsl(31, 77%, 52%);
+    padding: 50px;
+    box-sizing: border-box;
+    width: 30%;
+    height: 550px;
+    justify-content: space-evenly;
 }
 
 .suv-container{
     background-color: hsl(184, 100%, 22%);
+    padding: 50px;
+    box-sizing: border-box;
+    width: 30%;
+    height: 550px;
 }
 
 .luxury-container{
     background-color: hsl(179, 100%, 13%);
+    padding: 50px;
+    box-sizing: border-box;
+    width: 30%;
+    height: 550px;
 }
