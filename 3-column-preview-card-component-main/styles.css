@@ -9,7 +9,7 @@ body {
     margin: 0;
 }
 
-header{
+.heading{
     font-family: 'Big Shoulders Display', cursive;
     color: hsl(0, 0%, 95%);
     font-size: 40px;
