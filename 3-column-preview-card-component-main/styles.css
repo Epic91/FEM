@@ -7,15 +7,6 @@ body {
     background-color: hsla(0, 0%, 100%, 0.75) ;
 }
 
-.heading{
-    font-family: 'Big Shoulders Display', cursive;
-    color: hsl(0, 0%, 95%);
-    font-size: 40px;
-    font-weight: 700;
-    padding-top: 20px;
-    padding-bottom: 30px;
-}
-
 p{
     font-family: 'Lexend Deca', sans-serif;
     color: hsla(0, 0%, 100%, 0.75);
@@ -33,8 +24,53 @@ button{
     padding: 10px;
     border-radius: 20px;
     border: none;
+    width: 150px;
 }
 
+.heading{
+    font-family: 'Big Shoulders Display', cursive;
+    color: hsl(0, 0%, 95%);
+    font-size: 40px;
+    font-weight: 700;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.card-wrapper{
+    padding: 150px;
+    padding-left: 350px;
+    display: flex;
+    align-items: center; 
+    padding-bottom: 0;
+}
+
+.sedan-container{
+    background-color: hsl(31, 77%, 52%);
+    padding: 40px;
+    width: 220px;
+    height: 450px;
+    justify-content: space-evenly;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.suv-container{
+    background-color: hsl(184, 100%, 22%);
+    padding: 40px;
+    width: 220px;
+    height: 450px;
+    justify-content: space-evenly;
+}
+
+.lux-container{
+    background-color: hsl(179, 100%, 13%);
+    padding: 40px;
+    width: 220px;
+    height: 450px;
+    justify-content: space-evenly;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
 
 .sedan-btn{
     background-color: hsl(0, 0%, 95%);
@@ -66,40 +102,6 @@ button{
     color:white
 }
 
-.card-wrapper{
-    padding: 150px;
-    padding-left: 350px;
-    display: flex;
-    align-items: center; 
-}
-
-.sedan-container{
-    background-color: hsl(31, 77%, 52%);
-    padding: 40px;
-    width: 220px;
-    height: 450px;
-    justify-content: space-evenly;
-    border-top-left-radius: 20px;
-    border-bottom-left-radius: 20px;
-}
-
-.suv-container{
-    background-color: hsl(184, 100%, 22%);
-    padding: 40px;
-    width: 220px;
-    height: 450px;
-    justify-content: space-evenly;
-}
-
-.luxury-container{
-    background-color: hsl(179, 100%, 13%);
-    padding: 40px;
-    width: 220px;
-    height: 450px;
-    justify-content: space-evenly;
-    border-top-right-radius: 20px;
-    border-bottom-right-radius: 20px;
-}
 
 /* @media screen and (min-width: 375px){
     .card-wrapper {
